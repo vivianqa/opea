@@ -306,4 +306,3 @@ E permaneço na página de login
 
 Vivian Raia Charrouf
 [Vrc.testquality@gmail.com] | [https://www.linkedin.com/in/vivian-r-c-8a2820377/]
-[(41)99823-0156]
