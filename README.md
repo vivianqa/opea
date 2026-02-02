@@ -6,35 +6,35 @@ Este desafio contém a automação de testes funcionais utilizando o **Robot Fra
 - **Cadastro de Usuário**
 
 ---
-
-## 📁 Estrutura do Projeto
-
 robot-tests/
 ├── cadastro_usuario/
 │   ├── cadastro_invalido_cpf.robot
 │   ├── cadastro_invalido_email.robot
 │   ├── cadastro_invalido_senha.robot
-│   ├── cadastro_valido_reenvio_email.robot
 │   ├── cadastro_valido.robot
-│   └── CpfLibrary.py        # Gerador de CPF
+│   ├── cadastro_valido_reenvio_email.robot
 │   ├── keywords_cadastro.robot
-│   ├── PasswordGenerator.py  # Gerador de senhas
+│   ├── CpfLibrary.py              # Gerador de CPF
+│   └── PasswordGenerator.py       # Gerador de senhas
+│
 ├── acesso_usuario/
 │   ├── acesso_invalido.robot
-│   ├── acesso_valido_senha.robot
 │   ├── acesso_valido.robot
-│   └── keywords_acesso.robot
-│   ├── PasswordGenerator.py  # Gerador de senhas
+│   ├── acesso_valido_senha.robot
+│   ├── keywords_acesso.robot
+│   └── PasswordGenerator.py       # Gerador de senhas
+│
 ├── resources/
-│   ├── variables.robot      # Variáveis globais para o projeto
-│   ├── locators.robot       # Localizadores para os elementos da página
-│   └── common_keywords.robot  # Keywords comuns para reutilização
+│   ├── variaveis.robot             # Variáveis globais do projeto
+│   ├── locators.robot              # Localizadores dos elementos da página
+│   └── common_keywords.robot       # Keywords reutilizáveis
+│
 ├── settings/
-│   ├── environment.robot    # Configurações do ambiente (URLs, navegador, etc.)
-│   └── config.robot         # Configurações globais (timeouts, etc.)
-└── README.md                # Documentação do projeto
+│   ├── ambiente.robot              # Configurações do ambiente (URL, navegador)
+│   └── config.robot                # Configurações globais (timeouts, etc.)
+│
+└── README.md                       # Documentação do projeto
 
----
 
 ## 🚀 Como Executar os Testes
 
