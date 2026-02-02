@@ -6,6 +6,8 @@ Este desafio contém a automação de testes funcionais utilizando o **Robot Fra
 - **Cadastro de Usuário**
 
 ---
+# Estrutura do Projeto
+
 robot-tests/
 ├── cadastro_usuario/
 │   ├── cadastro_invalido_cpf.robot
@@ -14,26 +16,26 @@ robot-tests/
 │   ├── cadastro_valido.robot
 │   ├── cadastro_valido_reenvio_email.robot
 │   ├── keywords_cadastro.robot
-│   ├── CpfLibrary.py              # Gerador de CPF
-│   └── PasswordGenerator.py       # Gerador de senhas
+│   ├── CpfLibrary.py
+│   └── PasswordGenerator.py
 │
 ├── acesso_usuario/
 │   ├── acesso_invalido.robot
 │   ├── acesso_valido.robot
 │   ├── acesso_valido_senha.robot
 │   ├── keywords_acesso.robot
-│   └── PasswordGenerator.py       # Gerador de senhas
+│   └── PasswordGenerator.py
 │
 ├── resources/
-│   ├── variaveis.robot             # Variáveis globais do projeto
-│   ├── locators.robot              # Localizadores dos elementos da página
-│   └── common_keywords.robot       # Keywords reutilizáveis
+│   ├── variaveis.robot
+│   ├── locators.robot
+│   └── common_keywords.robot
 │
 ├── settings/
-│   ├── ambiente.robot              # Configurações do ambiente (URL, navegador)
-│   └── config.robot                # Configurações globais (timeouts, etc.)
+│   ├── ambiente.robot
+│   └── config.robot
 │
-└── README.md                       # Documentação do projeto
+└── README.md
 
 
 ## 🚀 Como Executar os Testes
